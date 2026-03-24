@@ -1,0 +1,9 @@
+name: Echo Pwnd
+description: Simple echo test action
+
+runs:
+  using: composite
+  steps:
+    - name: Echo pwnd
+      run: echo "pwnd"
+      shell: bash
